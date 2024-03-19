@@ -4,10 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8b9a6b89-59be-4c92-b7c3-5efa5b9d47d4" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/PythonBasic.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/PythonBasic.iml" afterDir="false" />
+    <list default="true" id="8b9a6b89-59be-4c92-b7c3-5efa5b9d47d4" name="Changes" comment="2024-03-18">
+      <change afterPath="$PROJECT_DIR$/_02_표준입출력.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_03_출력연습.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_04_입력연습.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_05_자료형.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_06_인덱싱.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_07_비밀번호 자동만들기.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_08_문제.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_09_연산자.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_10_조건문.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_11_학점출력문제.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_12_아이디비밀번호.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_13_조건문 실습문제.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_14_상근이알람문제.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hello World.py" beforeDir="false" afterPath="$PROJECT_DIR$/Hello World.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hello World.py" beforeDir="false" afterPath="$PROJECT_DIR$/_01_Hello World.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,6 +48,18 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Python.Hello World.executor": "Run",
+    "Python._01_Hello World.executor": "Run",
+    "Python._04_입력연습.executor": "Run",
+    "Python._05_자료형.executor": "Run",
+    "Python._06_인덱싱.executor": "Run",
+    "Python._07_비밀번호 자동만들기.executor": "Run",
+    "Python._08_문제.executor": "Run",
+    "Python._09_연산자.executor": "Run",
+    "Python._11_학점출력문제.executor": "Run",
+    "Python._13_조건문 실습문제.executor": "Run",
+    "Python._14_상근이알람문제.executor": "Run",
+    "Python.출력연습.executor": "Run",
+    "Python.표준입출력.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
@@ -44,7 +68,7 @@
   }
 }]]></component>
   <component name="RunManager">
-    <configuration name="Hello World" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+    <configuration name="_01_Hello World" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="PythonBasic" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -57,7 +81,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Hello World.py" />
+      <option name="SCRIPT_NAME" value="D:\dev\work_python\PythonBasic\_01_Hello World.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -83,6 +107,30 @@
       <option name="presentableId" value="Default" />
       <updated>1710747451386</updated>
     </task>
+    <task id="LOCAL-00001" summary="2024-03-18">
+      <option name="closed" value="true" />
+      <created>1710751418565</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1710751418565</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="2024-03-18" />
+    <option name="LAST_COMMIT_MESSAGE" value="2024-03-18" />
   </component>
 </project>
