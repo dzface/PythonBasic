@@ -4,23 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8b9a6b89-59be-4c92-b7c3-5efa5b9d47d4" name="Changes" comment="2024-03-18">
-      <change afterPath="$PROJECT_DIR$/_02_표준입출력.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_03_출력연습.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_04_입력연습.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_05_자료형.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_06_인덱싱.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_07_비밀번호 자동만들기.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_08_문제.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_09_연산자.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_10_조건문.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_11_학점출력문제.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_12_아이디비밀번호.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_13_조건문 실습문제.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_14_상근이알람문제.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hello World.py" beforeDir="false" afterPath="$PROJECT_DIR$/_01_Hello World.py" afterDir="false" />
-    </list>
+    <list default="true" id="8b9a6b89-59be-4c92-b7c3-5efa5b9d47d4" name="Changes" comment="2024-03-19" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -115,7 +99,15 @@
       <option name="project" value="LOCAL" />
       <updated>1710751418565</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="2024-03-19">
+      <option name="closed" value="true" />
+      <created>1710838351913</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1710838351913</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -131,6 +123,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="2024-03-18" />
-    <option name="LAST_COMMIT_MESSAGE" value="2024-03-18" />
+    <MESSAGE value="2024-03-19" />
+    <option name="LAST_COMMIT_MESSAGE" value="2024-03-19" />
   </component>
 </project>

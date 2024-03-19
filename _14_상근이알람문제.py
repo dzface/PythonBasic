@@ -20,9 +20,11 @@
 '''
 # 시간을 실수로 환산
 old_alarm = list(map(int,input("시 분을 입력하세요. : ").split()))
-hour = int(old_alarm[0])
-minute = int(old_alarm[1])
-S_TIME = 0.75
-f_minute = minute / 60
-f_new_alarm = hour + f_minute - S_TIME
-print(f"{int(f_new_alarm)} 시 {(f_new_alarm-int(f_new_alarm)*60)}")
+hour = int(old_alarm[0]) # 입력 시간
+minute = float(old_alarm[1]) # 입력 분
+f_time = hour + float(minute/60)
+S_TIME = 0.75 # 적용해야 할 45분 환산
+f_new_alalm = f_time - S_TIME
+last_time = int(f_new_alalm)
+last_minute = float(f_new_alalm - last_time)*60 # 실수 분을 분으로 환산
+print(f" 새로운 알람시간은 {last_time} 시 {int(last_minute)} 분 입니다.")
