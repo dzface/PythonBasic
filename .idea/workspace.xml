@@ -4,7 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8b9a6b89-59be-4c92-b7c3-5efa5b9d47d4" name="Changes" comment="2024-03-19" />
+    <list default="true" id="8b9a6b89-59be-4c92-b7c3-5efa5b9d47d4" name="Changes" comment="2024-03-20">
+      <change afterPath="$PROJECT_DIR$/_00_Practice.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_15_while.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_16_MBTI_조건문_실습.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_17_for문.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_18_회원정보 출력실습.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_19_대소문자바꾸기.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_20_숫자의 개수문제.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_21_내장함수.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_22_리스트.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_23_로또번호 추출.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -32,6 +44,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Python.Hello World.executor": "Run",
+    "Python._00_Practice.executor": "Run",
     "Python._01_Hello World.executor": "Run",
     "Python._04_입력연습.executor": "Run",
     "Python._05_자료형.executor": "Run",
@@ -42,13 +55,21 @@
     "Python._11_학점출력문제.executor": "Run",
     "Python._13_조건문 실습문제.executor": "Run",
     "Python._14_상근이알람문제.executor": "Run",
+    "Python._16_MBTI_조건문_실습.executor": "Run",
+    "Python._17_for문.executor": "Run",
+    "Python._18_회원정보 출력실습.executor": "Run",
+    "Python._19_대소문자바꾸기.executor": "Run",
+    "Python._20_숫자의 개수문제.executor": "Run",
+    "Python._21_내장함수.executor": "Run",
+    "Python._22_리스트.executor": "Run",
+    "Python._23_로또번호 추출.executor": "Run",
     "Python.출력연습.executor": "Run",
     "Python.표준입출력.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
+    "settings.editor.selected.configurable": "preferences.editor"
   }
 }]]></component>
   <component name="RunManager">
@@ -66,6 +87,28 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="D:\dev\work_python\PythonBasic\_01_Hello World.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="_21_내장함수" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="PythonBasic" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/_21_내장함수.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -107,7 +150,15 @@
       <option name="project" value="LOCAL" />
       <updated>1710838351913</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="2024-03-20">
+      <option name="closed" value="true" />
+      <created>1710889083622</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1710889083622</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -124,6 +175,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="2024-03-18" />
     <MESSAGE value="2024-03-19" />
-    <option name="LAST_COMMIT_MESSAGE" value="2024-03-19" />
+    <MESSAGE value="2024-03-20" />
+    <option name="LAST_COMMIT_MESSAGE" value="2024-03-20" />
   </component>
 </project>
