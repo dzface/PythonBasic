@@ -5,17 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8b9a6b89-59be-4c92-b7c3-5efa5b9d47d4" name="Changes" comment="2024-03-20">
-      <change afterPath="$PROJECT_DIR$/_00_Practice.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_15_while.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_16_MBTI_조건문_실습.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_17_for문.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_18_회원정보 출력실습.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_19_대소문자바꾸기.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_20_숫자의 개수문제.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_21_내장함수.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_22_리스트.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_23_로또번호 추출.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_24_딕셔너리.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_25_딕셔너리_커피예제.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_26_PC방알바문제.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_26_학생정보등록예제.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_27_저항값문제.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_28_튜플.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_29_집합.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_30_함수.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_31_함수를사용한은행계좌.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_32_함수예제.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_33_전역변수.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_34_람다연습.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_35_함수테스트문제.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_36_데코레이터.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_23_로또번호 추출.py" beforeDir="false" afterPath="$PROJECT_DIR$/_23_로또번호 추출.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,6 +68,18 @@
     "Python._21_내장함수.executor": "Run",
     "Python._22_리스트.executor": "Run",
     "Python._23_로또번호 추출.executor": "Run",
+    "Python._24_딕셔너리.executor": "Run",
+    "Python._26_PC방알바문제.executor": "Run",
+    "Python._26_학생정보등록예제.executor": "Run",
+    "Python._27_저항값문제.executor": "Run",
+    "Python._28_튜플.executor": "Run",
+    "Python._30_함수.executor": "Run",
+    "Python._31_함수를사용한은행계좌.executor": "Run",
+    "Python._32_함수예제.executor": "Run",
+    "Python._33_전역변수.executor": "Run",
+    "Python._34_람다연습.executor": "Run",
+    "Python._35_함수테스트문제.executor": "Run",
+    "Python._36_데코레이터.executor": "Run",
     "Python.출력연습.executor": "Run",
     "Python.표준입출력.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
@@ -158,7 +175,15 @@
       <option name="project" value="LOCAL" />
       <updated>1710889083622</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="2024-03-20">
+      <option name="closed" value="true" />
+      <created>1710923471743</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1710923471743</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
