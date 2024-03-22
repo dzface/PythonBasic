@@ -4,23 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8b9a6b89-59be-4c92-b7c3-5efa5b9d47d4" name="Changes" comment="2024-03-20">
-      <change afterPath="$PROJECT_DIR$/_24_딕셔너리.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_25_딕셔너리_커피예제.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_26_PC방알바문제.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_26_학생정보등록예제.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_27_저항값문제.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_28_튜플.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_29_집합.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_30_함수.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_31_함수를사용한은행계좌.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_32_함수예제.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_33_전역변수.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_34_람다연습.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_35_함수테스트문제.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_36_데코레이터.py" afterDir="false" />
+    <list default="true" id="8b9a6b89-59be-4c92-b7c3-5efa5b9d47d4" name="Changes" comment="2024-03-21">
+      <change afterPath="$PROJECT_DIR$/_37_파일입출력.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_38_스타벅스일매출예제.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_39_객체지향TV예제.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_40_연산자오버로딩.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_41_정적메소드와클래스메소드.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_42_쓰레드게임예제.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_43_모듈과패키지.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_43_모듈호출.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_44_외부모듈.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_45_예외처리.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_23_로또번호 추출.py" beforeDir="false" afterPath="$PROJECT_DIR$/_23_로또번호 추출.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_00_Practice.py" beforeDir="false" afterPath="$PROJECT_DIR$/_00_Practice.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_35_함수테스트문제.py" beforeDir="false" afterPath="$PROJECT_DIR$/_35_함수테스트문제.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,6 +77,14 @@
     "Python._34_람다연습.executor": "Run",
     "Python._35_함수테스트문제.executor": "Run",
     "Python._36_데코레이터.executor": "Run",
+    "Python._37_파일입출력.executor": "Run",
+    "Python._38_스타벅스일매출예제.executor": "Run",
+    "Python._39_객체지향TV예제.executor": "Run",
+    "Python._40_연산자오버로딩.executor": "Run",
+    "Python._41_정적메소드와클래스메소드.executor": "Run",
+    "Python._42_쓰레드게임예제.executor": "Run",
+    "Python._43_모듈호출.executor": "Run",
+    "Python._44_외부모듈.executor": "Run",
     "Python.출력연습.executor": "Run",
     "Python.표준입출력.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
@@ -183,7 +188,15 @@
       <option name="project" value="LOCAL" />
       <updated>1710923471743</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="2024-03-21">
+      <option name="closed" value="true" />
+      <created>1711010783798</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1711010783798</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -201,6 +214,18 @@
     <MESSAGE value="2024-03-18" />
     <MESSAGE value="2024-03-19" />
     <MESSAGE value="2024-03-20" />
-    <option name="LAST_COMMIT_MESSAGE" value="2024-03-20" />
+    <MESSAGE value="2024-03-21" />
+    <option name="LAST_COMMIT_MESSAGE" value="2024-03-21" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/_38_스타벅스일매출예제.py</url>
+          <line>9</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
