@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8b9a6b89-59be-4c92-b7c3-5efa5b9d47d4" name="Changes" comment="2024-03-22">
-      <change afterPath="$PROJECT_DIR$/_46_Json기본.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_47_Json 디코딩.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_48_CSV.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_49_스프링통신.py" afterDir="false" />
+    <list default="true" id="8b9a6b89-59be-4c92-b7c3-5efa5b9d47d4" name="Changes" comment="json 형식 csv 형식 파일 생성 스프링부트 통신 확인">
+      <change afterPath="$PROJECT_DIR$/_50_파싱연습.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_51_파싱연습2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_52_요청과 응답.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -80,6 +79,9 @@
     "Python._46_Json기본.executor": "Run",
     "Python._48_CSV.executor": "Run",
     "Python._49_스프링통신.executor": "Run",
+    "Python._50_파싱연습.executor": "Run",
+    "Python._51_파싱연습2.executor": "Run",
+    "Python._52_요청과 응답.executor": "Run",
     "Python.출력연습.executor": "Run",
     "Python.표준입출력.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
@@ -87,7 +89,7 @@
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
     "last_opened_file_path": "D:/dev/work_python/PythonBasic",
-    "settings.editor.selected.configurable": "preferences.editor"
+    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -95,7 +97,7 @@
       <recent name="D:\dev\work_python\PythonBasic" />
     </key>
   </component>
-  <component name="RunManager" selected="Python._49_스프링통신">
+  <component name="RunManager" selected="Python._52_요청과 응답">
     <configuration name="_01_Hello World" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="PythonBasic" />
       <option name="ENV_FILES" value="" />
@@ -162,28 +164,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="_48_CSV" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="PythonBasic" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/_48_CSV.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="_49_스프링통신" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PythonBasic" />
       <option name="ENV_FILES" value="" />
@@ -206,11 +186,79 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="_50_파싱연습" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="PythonBasic" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/_50_파싱연습.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="_51_파싱연습2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="PythonBasic" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/_51_파싱연습2.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="_52_요청과 응답" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="PythonBasic" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/_52_요청과 응답.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python._52_요청과 응답" />
+        <item itemvalue="Python._51_파싱연습2" />
+        <item itemvalue="Python._50_파싱연습" />
         <item itemvalue="Python._49_스프링통신" />
         <item itemvalue="Python._46_Json기본" />
-        <item itemvalue="Python._48_CSV" />
       </list>
     </recent_temporary>
   </component>
@@ -278,7 +326,15 @@
       <option name="project" value="LOCAL" />
       <updated>1711095311461</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="json 형식 csv 형식 파일 생성 스프링부트 통신 확인">
+      <option name="closed" value="true" />
+      <created>1718588416325</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1718588416325</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -298,7 +354,8 @@
     <MESSAGE value="2024-03-20" />
     <MESSAGE value="2024-03-21" />
     <MESSAGE value="2024-03-22" />
-    <option name="LAST_COMMIT_MESSAGE" value="2024-03-22" />
+    <MESSAGE value="json 형식 csv 형식 파일 생성 스프링부트 통신 확인" />
+    <option name="LAST_COMMIT_MESSAGE" value="json 형식 csv 형식 파일 생성 스프링부트 통신 확인" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
