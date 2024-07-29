@@ -30,3 +30,25 @@ weight = bream_weight + smelt_weight
 # 2차원 리스트 생성, zip()함수는 나열된 리스트 각각에서 하나의 원소를 꺼내서 반환
 fish_data = [[l, w] for l, w in zip(length, weight)]
 print(fish_data)
+
+fish_target = [1] * 35 + [0] * 14
+print(fish_target)
+
+from sklearn.neighbors import KNeighborsClassifier
+
+kn = KNeighborsClassifier() # 객체 생성
+#훈련시키기 
+kn.fit(fish_data, fish_target)
+
+#테스트용 새로운 데이터 예측
+kn.predict([[30, 600]])
+print(kn._fit_X)
+print(kn._y)
+
+kn49 = KNeighborsClassifier(n_neighbors=49)
+result1 = kn49.fit(fish_data, fish_target)
+result2 = kn49.score(fish_data, fish_target) # 모델의 정확도 100% 다맞으면 1
+print("kn49 :", kn49)
+print("result1 :", result1)
+print("result2 : ", result2)
+print("정확도 결과 : " , 35/49)
