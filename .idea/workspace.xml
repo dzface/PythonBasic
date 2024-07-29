@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8b9a6b89-59be-4c92-b7c3-5efa5b9d47d4" name="Changes" comment="json 형식 csv 형식 파일 생성 스프링부트 통신 확인">
-      <change afterPath="$PROJECT_DIR$/_50_파싱연습.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_51_파싱연습2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_52_요청과 응답.py" afterDir="false" />
+    <list default="true" id="8b9a6b89-59be-4c92-b7c3-5efa5b9d47d4" name="Changes" comment="파싱 연습">
+      <change afterPath="$PROJECT_DIR$/_53_스케줄링.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -34,70 +32,71 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python.Hello World.executor": "Run",
-    "Python._00_Practice.executor": "Run",
-    "Python._01_Hello World.executor": "Run",
-    "Python._04_입력연습.executor": "Run",
-    "Python._05_자료형.executor": "Run",
-    "Python._06_인덱싱.executor": "Run",
-    "Python._07_비밀번호 자동만들기.executor": "Run",
-    "Python._08_문제.executor": "Run",
-    "Python._09_연산자.executor": "Run",
-    "Python._11_학점출력문제.executor": "Run",
-    "Python._13_조건문 실습문제.executor": "Run",
-    "Python._14_상근이알람문제.executor": "Run",
-    "Python._16_MBTI_조건문_실습.executor": "Run",
-    "Python._17_for문.executor": "Run",
-    "Python._18_회원정보 출력실습.executor": "Run",
-    "Python._19_대소문자바꾸기.executor": "Run",
-    "Python._20_숫자의 개수문제.executor": "Run",
-    "Python._21_내장함수.executor": "Run",
-    "Python._22_리스트.executor": "Run",
-    "Python._23_로또번호 추출.executor": "Run",
-    "Python._24_딕셔너리.executor": "Run",
-    "Python._26_PC방알바문제.executor": "Run",
-    "Python._26_학생정보등록예제.executor": "Run",
-    "Python._27_저항값문제.executor": "Run",
-    "Python._28_튜플.executor": "Run",
-    "Python._30_함수.executor": "Run",
-    "Python._31_함수를사용한은행계좌.executor": "Run",
-    "Python._32_함수예제.executor": "Run",
-    "Python._33_전역변수.executor": "Run",
-    "Python._34_람다연습.executor": "Run",
-    "Python._35_함수테스트문제.executor": "Run",
-    "Python._36_데코레이터.executor": "Run",
-    "Python._37_파일입출력.executor": "Run",
-    "Python._38_스타벅스일매출예제.executor": "Run",
-    "Python._39_객체지향TV예제.executor": "Run",
-    "Python._40_연산자오버로딩.executor": "Run",
-    "Python._41_정적메소드와클래스메소드.executor": "Run",
-    "Python._42_쓰레드게임예제.executor": "Run",
-    "Python._43_모듈호출.executor": "Run",
-    "Python._44_외부모듈.executor": "Run",
-    "Python._46_Json기본.executor": "Run",
-    "Python._48_CSV.executor": "Run",
-    "Python._49_스프링통신.executor": "Run",
-    "Python._50_파싱연습.executor": "Run",
-    "Python._51_파싱연습2.executor": "Run",
-    "Python._52_요청과 응답.executor": "Run",
-    "Python.출력연습.executor": "Run",
-    "Python.표준입출력.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "D:/dev/work_python/PythonBasic",
-    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.Hello World.executor&quot;: &quot;Run&quot;,
+    &quot;Python._00_Practice.executor&quot;: &quot;Run&quot;,
+    &quot;Python._01_Hello World.executor&quot;: &quot;Run&quot;,
+    &quot;Python._04_입력연습.executor&quot;: &quot;Run&quot;,
+    &quot;Python._05_자료형.executor&quot;: &quot;Run&quot;,
+    &quot;Python._06_인덱싱.executor&quot;: &quot;Run&quot;,
+    &quot;Python._07_비밀번호 자동만들기.executor&quot;: &quot;Run&quot;,
+    &quot;Python._08_문제.executor&quot;: &quot;Run&quot;,
+    &quot;Python._09_연산자.executor&quot;: &quot;Run&quot;,
+    &quot;Python._11_학점출력문제.executor&quot;: &quot;Run&quot;,
+    &quot;Python._13_조건문 실습문제.executor&quot;: &quot;Run&quot;,
+    &quot;Python._14_상근이알람문제.executor&quot;: &quot;Run&quot;,
+    &quot;Python._16_MBTI_조건문_실습.executor&quot;: &quot;Run&quot;,
+    &quot;Python._17_for문.executor&quot;: &quot;Run&quot;,
+    &quot;Python._18_회원정보 출력실습.executor&quot;: &quot;Run&quot;,
+    &quot;Python._19_대소문자바꾸기.executor&quot;: &quot;Run&quot;,
+    &quot;Python._20_숫자의 개수문제.executor&quot;: &quot;Run&quot;,
+    &quot;Python._21_내장함수.executor&quot;: &quot;Run&quot;,
+    &quot;Python._22_리스트.executor&quot;: &quot;Run&quot;,
+    &quot;Python._23_로또번호 추출.executor&quot;: &quot;Run&quot;,
+    &quot;Python._24_딕셔너리.executor&quot;: &quot;Run&quot;,
+    &quot;Python._26_PC방알바문제.executor&quot;: &quot;Run&quot;,
+    &quot;Python._26_학생정보등록예제.executor&quot;: &quot;Run&quot;,
+    &quot;Python._27_저항값문제.executor&quot;: &quot;Run&quot;,
+    &quot;Python._28_튜플.executor&quot;: &quot;Run&quot;,
+    &quot;Python._30_함수.executor&quot;: &quot;Run&quot;,
+    &quot;Python._31_함수를사용한은행계좌.executor&quot;: &quot;Run&quot;,
+    &quot;Python._32_함수예제.executor&quot;: &quot;Run&quot;,
+    &quot;Python._33_전역변수.executor&quot;: &quot;Run&quot;,
+    &quot;Python._34_람다연습.executor&quot;: &quot;Run&quot;,
+    &quot;Python._35_함수테스트문제.executor&quot;: &quot;Run&quot;,
+    &quot;Python._36_데코레이터.executor&quot;: &quot;Run&quot;,
+    &quot;Python._37_파일입출력.executor&quot;: &quot;Run&quot;,
+    &quot;Python._38_스타벅스일매출예제.executor&quot;: &quot;Run&quot;,
+    &quot;Python._39_객체지향TV예제.executor&quot;: &quot;Run&quot;,
+    &quot;Python._40_연산자오버로딩.executor&quot;: &quot;Run&quot;,
+    &quot;Python._41_정적메소드와클래스메소드.executor&quot;: &quot;Run&quot;,
+    &quot;Python._42_쓰레드게임예제.executor&quot;: &quot;Run&quot;,
+    &quot;Python._43_모듈호출.executor&quot;: &quot;Run&quot;,
+    &quot;Python._44_외부모듈.executor&quot;: &quot;Run&quot;,
+    &quot;Python._46_Json기본.executor&quot;: &quot;Run&quot;,
+    &quot;Python._48_CSV.executor&quot;: &quot;Run&quot;,
+    &quot;Python._49_스프링통신.executor&quot;: &quot;Run&quot;,
+    &quot;Python._50_파싱연습.executor&quot;: &quot;Run&quot;,
+    &quot;Python._51_파싱연습2.executor&quot;: &quot;Run&quot;,
+    &quot;Python._52_요청과 응답.executor&quot;: &quot;Run&quot;,
+    &quot;Python._53_스케줄링.executor&quot;: &quot;Run&quot;,
+    &quot;Python.출력연습.executor&quot;: &quot;Run&quot;,
+    &quot;Python.표준입출력.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/dev/work_python/PythonBasic&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\dev\work_python\PythonBasic" />
     </key>
   </component>
-  <component name="RunManager" selected="Python._52_요청과 응답">
+  <component name="RunManager" selected="Python._53_스케줄링">
     <configuration name="_01_Hello World" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="PythonBasic" />
       <option name="ENV_FILES" value="" />
@@ -134,28 +133,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/_21_내장함수.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="_46_Json기본" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="PythonBasic" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/_46_Json기본.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -252,13 +229,35 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="_53_스케줄링" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="PythonBasic" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/_53_스케줄링.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python._53_스케줄링" />
         <item itemvalue="Python._52_요청과 응답" />
         <item itemvalue="Python._51_파싱연습2" />
         <item itemvalue="Python._50_파싱연습" />
         <item itemvalue="Python._49_스프링통신" />
-        <item itemvalue="Python._46_Json기본" />
       </list>
     </recent_temporary>
   </component>
@@ -334,7 +333,15 @@
       <option name="project" value="LOCAL" />
       <updated>1718588416325</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="파싱 연습">
+      <option name="closed" value="true" />
+      <created>1718595763784</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1718595763784</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -355,7 +362,8 @@
     <MESSAGE value="2024-03-21" />
     <MESSAGE value="2024-03-22" />
     <MESSAGE value="json 형식 csv 형식 파일 생성 스프링부트 통신 확인" />
-    <option name="LAST_COMMIT_MESSAGE" value="json 형식 csv 형식 파일 생성 스프링부트 통신 확인" />
+    <MESSAGE value="파싱 연습" />
+    <option name="LAST_COMMIT_MESSAGE" value="파싱 연습" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
